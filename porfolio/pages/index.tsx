@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Flex, Portal } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import HomePage from '../components/HomePage'
 import BarMenu from '../components/BarMenu'
 

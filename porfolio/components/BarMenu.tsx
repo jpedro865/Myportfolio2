@@ -10,9 +10,9 @@ export default function BarMenu() {
       >
         <Stack spacing={5} direction={'row'}>
           <MenuButtons text='Accueil' logoUrl='/home.png' onclick={'#home'}/>
-          <MenuButtons text='Apropos' logoUrl='/A48.png' onclick={'#hello'}/>
-          <MenuButtons text='Projects' logoUrl='/projects.png' onclick={'#qmksd'}/>
-          <MenuButtons text='Compétences' logoUrl='/competences.png' onclick={'#sqpkd,msq,ds'}/>
+          <MenuButtons text='Apropos' logoUrl='/A48.png' onclick={'#apropos'}/>
+          <MenuButtons text='Projects' logoUrl='/projects.png' onclick={'#projets'}/>
+          <MenuButtons text='Compétences' logoUrl='/competences.png' onclick={'#competences'}/>
         </Stack>      
       </Flex>
     </Portal>

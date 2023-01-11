@@ -1,13 +1,9 @@
-import Head from 'next/head'
-import { Center, Flex, Heading, Image, Square, Stack, Text } from '@chakra-ui/react'
-import MenuButtons from '../components/MenuButtons'
-import BarMenu from './BarMenu'
+import { Flex, Heading, Image, Text } from '@chakra-ui/react'
 
 export default function HomePage() {
   return (
     <>
       <Flex id={'home'} bg={'#DFF6FF'} h={'100vh'}>
-        
         <Flex w={'50%'} justify={'center'} align={'center'}>
             <Flex bg={'white'} p={5}
               w={'500px'}
