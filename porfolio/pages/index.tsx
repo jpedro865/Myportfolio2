@@ -1,7 +1,11 @@
 import Head from 'next/head'
-import { Flex } from '@chakra-ui/react'
+import { Flex, Heading, Image, Text } from '@chakra-ui/react'
 import HomePage from '../components/HomePage'
 import BarMenu from '../components/BarMenu'
+import CardApropos from '../components/CardApropos'
+import ProjectsPage from '../components/ProjectsPage'
+import SkillsPage from '../components/SkillsPage'
+import AproposPage from '../components/AproposPage'
 
 export default function Home() {
   return (
@@ -12,11 +16,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <BarMenu/>
+      <BarMenu/>
       <HomePage/> 
-      <Flex id={'apropos'} bg={'#DFF6FF'} h={'100vh'}>
-
-      </Flex>
+      <AproposPage/>
+      <ProjectsPage/>
+      <SkillsPage/>
     </>
   )
 }
