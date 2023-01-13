@@ -37,7 +37,7 @@ export default function HomePage() {
           <Flex  w={'500px'} h={'150px'} transform={'translateX(+50px)'}
             justify={'flex-end'} p={5} 
           >
-            <a href='/CV_Alternance.pdf'><Heading
+            <a target="_blank" href='/CV_Alternance.pdf'><Heading
               textColor={'#1363DF'} fontSize={'30px'}
               p={'7px'} mr={5} textShadow={'-1px 2px #06283D'}
               fontFamily={'Jura'}
