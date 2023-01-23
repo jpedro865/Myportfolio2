@@ -10,7 +10,7 @@ export default function SkillBar({name, pourcentage}: SkillBarProps) {
     <>
       <Flex direction={'column'} >
         {name}
-        <Progress mt={2} value={pourcentage} size='xs' colorScheme='blue' w={'400px'} />
+        <Progress mt={2} value={pourcentage} size='xs' colorScheme='blue' w={['200px', '300px', '400px']} />
       </Flex>
     </>
   )
