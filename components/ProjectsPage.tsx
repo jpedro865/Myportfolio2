@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <>
       <Flex id={'projects'} bg={'#DFF6FF'} p={[2, 5, 10]}>
-      <Heading ml={10} fontFamily='Jura' textColor={'#06283D'}>{'02 -'}</Heading><Heading fontFamily='Jura' textColor={'#1363DF'} ml={'15px'}>{'Projets'}</Heading>
+      <Heading ml={10} font-display='optional' fontFamily='Jura' textColor={'#06283D'}>{'02 -'}</Heading><Heading font-display='optional' fontFamily='Jura' textColor={'#1363DF'} ml={'15px'}>{'Projets'}</Heading>
       </Flex>
       <Flex bg={'#DFF6FF'} justify={'space-around'} align={'center'} p={[2, 5, 10]}>
         <SimpleGrid columns={[1, 1, 2, 2, 3]} spacing={'40px'} >

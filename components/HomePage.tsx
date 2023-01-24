@@ -26,10 +26,10 @@ export default function HomePage() {
             transform={'translateX(+50px)'}
             direction='column'
           >
-            <Heading fontFamily={'Jura'} size={'xl'} textColor={'#06283D'} m={3}>
+            <Heading font-display='optional' fontFamily={'Jura'} size={'xl'} textColor={'#06283D'} m={3}>
               {`Hey!! Bienvenue dans mon portfolio.`}
             </Heading>
-            <Text m={3} fontFamily={'Cutive'}>
+            <Text m={3} font-display='optional' fontFamily={'Cutive'}>
               {`Je m'apelle João Pedro et je suis étudiant a l'école d'informatique ETNA.`}
             </Text>
 
@@ -38,7 +38,7 @@ export default function HomePage() {
             justify={'flex-end'} p={5} 
           >
             <a target="_blank" href='/CV_Alternance.pdf'><Heading
-              textColor={'#1363DF'} fontSize={'30px'}
+              textColor={'#1363DF'} font-display='optional' fontSize={'30px'}
               p={'7px'} mr={5} textShadow={'-1px 2px #06283D'}
               fontFamily={'Jura'}
             >

@@ -4,7 +4,7 @@ import SkillBar from "./SkillsBar";
 export default function SkillsAutres() {
   return (
     <>
-      <Flex fontSize={'15px'} fontFamily={'Cutive'} p={10} direction={'column'}>
+      <Flex fontSize={'15px'} font-display='optional' fontFamily={'Cutive'} p={10} direction={'column'}>
         <Stack spacing={'50px'}>
           <SkillBar name={'ExpressJs'} pourcentage={70}/>
           <SkillBar name={'MySQL'} pourcentage={50}/>

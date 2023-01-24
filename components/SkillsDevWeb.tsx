@@ -4,7 +4,7 @@ import SkillBar from "./SkillsBar";
 export default function SkillsDevWeb() {
   return (
     <>
-      <Flex fontSize={'15px'} fontFamily={'Cutive'} p={10} direction={'column'}>
+      <Flex fontSize={'15px'} font-display='optional' fontFamily={'Cutive'} p={10} direction={'column'}>
         <Stack spacing={'50px'}>
           <SkillBar name={'ReactJs'} pourcentage={50}/>
           <SkillBar name={'NextJs'}pourcentage={40}/>

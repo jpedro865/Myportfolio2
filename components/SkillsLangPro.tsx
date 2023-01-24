@@ -4,7 +4,7 @@ import SkillBar from "./SkillsBar";
 export default function SkillsLangPro() {
   return (
     <>
-      <Flex fontSize={'15px'} fontFamily={'Cutive'} p={10} direction={'column'}>
+      <Flex font-display='optional' fontSize={'15px'} fontFamily={'Cutive'} p={10} direction={'column'}>
         <Stack spacing={'50px'}>
           <SkillBar name={'Java'} pourcentage={70}/>
           <SkillBar name={'TypeScript'} pourcentage={50}/>

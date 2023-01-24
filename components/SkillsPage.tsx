@@ -21,9 +21,9 @@ export default function SkillsPage() {
       <Flex id={'competences'} bg={'#DFF6FF'} justify={'space-around'} align={'center'} p={[2, 5, 10]}>
         <Flex w={'100%'} bg={'white'} rounded={'2xl'} boxShadow={'2xl'} p={[2, 5, 10]} direction={'column'} >
           <Flex boxShadow={'0px 24px 3px -24px black'} >
-              <Heading fontFamily='Jura' textColor={'#06283D'}>{'03 -'}</Heading><Heading fontFamily='Jura' textColor={'#1363DF'} ml={'15px'}>{'Competences'}</Heading>
+              <Heading font-display='optional' fontFamily='Jura' textColor={'#06283D'}>{'03 -'}</Heading><Heading fontFamily='Jura' textColor={'#1363DF'} ml={'15px'}>{'Competences'}</Heading>
           </Flex>
-          <Flex mt={5} fontFamily={'Cutive'} >
+          <Flex mt={5} font-display='optional' fontFamily={'Cutive'} >
             <Button bg={'transparent'}
               onClick={() => {
                 setAllFalse();

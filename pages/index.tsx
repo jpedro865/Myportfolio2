@@ -11,10 +11,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>{'<JPedro/> Student in Web Developer'}</title>
         <meta name="description" content="Portfolio of Da Silva João" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/development.png" />
+        <link rel='preload' />
       </Head>
       <BarMenu/>
       <HomePage/> 
