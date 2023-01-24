@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{'<JPedro/> Student in Web Developer'}</title>
+        <title>{'<JPedro/> Student in Web Development'}</title>
         <meta name="description" content="Portfolio of Da Silva João" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/development.png" />
