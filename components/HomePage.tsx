@@ -1,7 +1,8 @@
-import { Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Button, Flex, Heading, Image, Text, ThemeProvider, useBreakpointValue } from '@chakra-ui/react';
+import { useCallback } from 'react';
 
 export default function HomePage() {
-  const onButtonClick = () => {
+  const onButtonClick = useCallback( () => {
     // using Java Script method to get PDF file
     fetch('CV_Alternance.pdf').then(response => {
         response.blob().then(blob => {
@@ -14,7 +15,15 @@ export default function HomePage() {
             alink.click();
         })
     })
-  }
+  }, []);
+
+  const hiddenImage = useBreakpointValue({
+    base: true,
+    sm: true,
+    md: false,
+    lg: false,
+    xl: false,
+  })
   
   return (
     <>
@@ -53,7 +62,7 @@ export default function HomePage() {
                 transition: '0.5s',
                 transitionTimingFunction: 'ease-in-out'
               }}
-              onClick={onButtonClick}
+              onClick={() => {onButtonClick()}}
               transform={'translateY(+10px)'}
               transitionProperty={'color'}
             >
@@ -61,7 +70,7 @@ export default function HomePage() {
             </Button>
           </Flex>
         </Flex>
-        <Flex w={'50%'} justify={'center'} align={'center'} >
+        <Flex w={'50%'} justify={'center'} align={'center'} hidden={hiddenImage} >
           <Flex w={'300px'} h={'300px'}
             rounded={'2xl'}
           >

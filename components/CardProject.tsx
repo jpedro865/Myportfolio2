@@ -9,7 +9,7 @@ interface CardProjectProps {
 export default function CardProject({title, description, urlPhoto}: CardProjectProps) {
   return (
     <>
-      <Flex w={'400px'} bg={'white'} rounded={'2xl'} boxShadow={'2xl'} p={5} direction={'column'}>
+      <Flex w={'350px'} bg={'white'} rounded={'2xl'} boxShadow={'2xl'} p={5} direction={'column'}>
         <Flex justify={'center'} p={2} >
           <Heading font-display='optional' fontFamily={'Jura'} fontSize={'30px'}>{title}</Heading>
         </Flex>
